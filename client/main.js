@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/get')
+fetch('/get')
     .then(res => res.json())
     .then(data => {
         document.getElementById('output').textContent =
